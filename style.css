@@ -1,0 +1,36 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+  }
+  
+  .container {
+    text-align: center;
+  }
+  
+  .color-box {
+    width: 200px;
+    height: 200px;
+    margin: 20px auto;
+    border: 1px solid #ccc;
+    background-color: #fff;
+  }
+  
+  #flipButton {
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+  }
+  
+  #flipButton:hover {
+    background-color: #0056b3;
+  }
+  
